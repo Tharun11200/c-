@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,c,d,e,f,l;
+cout<<"enter the number of chicken: ";
+cin>>a;
+cout<<"enter the number of pig: ";
+cin>>b;
+cout<<"enter the number of cow ";
+cin>>c;
+
+d=2*a;
+e=4*b;
+f=4*c;
+l=d+e+f;
+cout<<"total number of legs "<<l;
+return 0 ;
+}
